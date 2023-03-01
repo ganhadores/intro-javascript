@@ -31,3 +31,14 @@ let endereco = {
 let covid;
 let dengue = null;
 
+console.log('Nome: ' + nome);
+console.log('Idade: ' + idade);
+console.log('Altura: ' + altura);
+console.log('Trabalha: ' + trabalha);
+console.log('Cor favorita: ' + corFavorita);
+console.log('Cores favoritas: ' + cores_favoritas[0] + ', ' + cores_favoritas[1] + ', ' + cores_favoritas[2]);
+console.log('Endereço: ' + endereco.logradouro + ' ' + endereco.nome_logradouro + ',  ' + endereco.número + ' - ' +  endereco.bairro + ' - ' +  endereco.cidade);
+console.log('Covid: ' + covid);
+console.log('Dengue: ' + dengue);
+
+
