@@ -17,7 +17,7 @@ for (let i = 0; i < 6; i ++) {
 
 for (let nMega = 0; nMega < resMegaSena.length; nMega++) {
     for (let nJogo = 0; nJogo < meuJogo.length; nJogo++) {
-        if (resMegaSena[nMega] === meuJogo[nJogo]) {
+        if (resMegaSena[nMega] == meuJogo[nJogo]) {
           acertos++;
 
        } 
